@@ -1,0 +1,2 @@
+# -Enthusiast
+#include&lt;stdio.h> int main() {   //khai báo hai biến a và b là hai số thực được nhập từ bàn phím   float a, b;   //sử dụng printf() và scanf() để nhận dữ liệu   printf("\nNhập vào số a: ");   scanf("%f", &amp;a);   printf("\nNhập vào số b: ");   scanf("%f", &amp;b);   //nếu a * b > 0 tức là hai số cùng dấu vì (âm * âm = dương)   if(a * b > 0)     printf("\n%.1f và %.1f cùng dấu", a, b);   //ngược lại thì a và b trái dấu   else     printf("\n%.1f và %.1f không cùng dấu", a, b);     printf("\n-------------------------------------\n");   printf("NHU"); }
